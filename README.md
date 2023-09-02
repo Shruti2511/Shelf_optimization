@@ -1,1 +1,1 @@
-# Shelf_optimizarion
+# Shelf_optimization
