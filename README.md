@@ -54,3 +54,7 @@ This solution will help the user understand what is needed in their shop in orde
 * Integration with E-Commerce Platforms: The integration of shelf optimization principles with e-commerce platforms could create a seamless omnichannel experience. This could involve optimizing virtual product placements on websites and mobile apps based on similar principles used in physical stores.
 
 ## Results:
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/1.png)
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/2.png)
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/3.png)
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/4.png)
