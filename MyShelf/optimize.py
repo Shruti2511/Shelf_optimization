@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import Tk, Label, X, Frame, Y, LEFT, BOTH
 from tkinter import ttk
 import matplotlib.pyplot as plt
 import openpyxl
@@ -14,7 +13,7 @@ from pmdarima import auto_arima
 import datetime
 import math
 
-months = ["jan", "feb", "march", "apr", "may", "june", "july", "aug", "sept", "oct", "nov", "dec", "jan", "feb", "march", "apr", "may"]
+months = ["jan", "feb", "march", "apr", "may", "june", "july", "aug", "sept", "oct", "nov", "dec"]
 
 #frame_styles = {"relief": "groove", "bd": 3, "bg": "#BEB2A7", "fg": "#073bb3", "font": ("Arial", 9, "bold")}
 
@@ -216,7 +215,7 @@ class MyApp(tk.Tk):
         main_frame.grid_rowconfigure(0, weight=1)
         main_frame.grid_columnconfigure(0, weight=1)
         self.resizable(0, 0) #prevents the app from being resized
-        #self.geometry("1024x600") #fixes the applications size
+
         self.frames = {}
         pages = (products, optimize, pricing, Forecast, About)
         for F in pages:
@@ -241,7 +240,6 @@ class GUI(tk.Frame):
     def __init__(self, parent):
         tk.Frame.__init__(self, parent)
         self.main_frame = tk.Frame(self, height=500, width=800)
-        #self.main_frame.pack_propagate(0)
         self.main_frame.pack(fill="both", expand="true")
         self.main_frame.grid_rowconfigure(0, weight=1)
         self.main_frame.grid_columnconfigure(0, weight=1)
@@ -388,6 +386,7 @@ class products(GUI):  # inherits from the GUI class
         product_SPprice_label.grid(row=3, column=0, padx=1, pady=5, sticky="news")
         product_SPprice_entry = tk.Entry(frame2)
         product_SPprice_entry.grid(row=3, column=1, padx=10, pady=5, sticky="news")
+        
         dimL_label = tk.Label(frame2, text="Length")
         dimL_label.grid(row=4, column=0, padx=5, pady=1, sticky="news")
         dimL_entry = tk.Entry(frame2)
