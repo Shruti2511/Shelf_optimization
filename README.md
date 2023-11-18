@@ -45,7 +45,7 @@ This solution will help the user understand what is needed in their shop in orde
 
 * Advanced Machine Learning Algorithms: Continuous advancements in machine learning and predictive modeling techniques could lead to the integration of more sophisticated algorithms. This could include deep learning models or ensemble methods for even more accurate demand forecasting and optimization.
 
-*Integration with IoT Devices: Integration with Internet of Things (IoT) devices, such as smart shelves and sensors, could enhance the system's real-time data collection capabilities. This integration could provide more granular insights into customer behavior and preferences.
+* Integration with IoT Devices: Integration with Internet of Things (IoT) devices, such as smart shelves and sensors, could enhance the system's real-time data collection capabilities. This integration could provide more granular insights into customer behavior and preferences.
 
 * Personalized Shelf Recommendations: Future systems might focus on providing personalized recommendations for individual customers. By incorporating customer data and purchase history, the system could suggest optimal product placements tailored to specific customer preferences.
 
@@ -54,3 +54,7 @@ This solution will help the user understand what is needed in their shop in orde
 * Integration with E-Commerce Platforms: The integration of shelf optimization principles with e-commerce platforms could create a seamless omnichannel experience. This could involve optimizing virtual product placements on websites and mobile apps based on similar principles used in physical stores.
 
 ## Results:
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/1.png)
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/2.png)
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/3.png)
+![Result](https://github.com/Shruti2511/Shelf_optimization/blob/main/MyShelf/result/4.png)
